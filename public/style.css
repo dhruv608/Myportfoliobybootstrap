@@ -1,0 +1,170 @@
+.bar a {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
+
+.head {
+  background-image: url();
+}
+body{
+  overflow-x: hidden;
+}
+
+.profile {
+  width: 480px;
+  height: 500px;
+  /* background-color: #fdab05; */
+  /* background-color:  #d6b788; */
+  background-color: #c5a46f;
+  
+}
+
+.head {
+  background-image: url(./images/backport.jpeg);
+  height: 80%;
+}
+
+.skill {
+  background-image: url(./images/codeback.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.s1 img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #fdab05;
+  box-shadow: 2px 2px 12px #fdab05;
+}
+
+.projects img {
+  width: 360px;
+  height: 250px;
+  border-radius: 30px;
+  border: 2px solid #ffbd39;
+  box-shadow: 2px 2px 2px #ffbd39;
+}
+
+input {
+  border: none;
+  background-color: rgba(48, 47, 47, 0.21);
+  border-radius: 20px;
+  width: 220px;
+  margin-bottom: 15px;
+  height: 35px;
+}
+
+.contact {
+  width: 800px;
+  background-color: rgba(48, 47, 47, 0.21);
+  height: 500px;
+  margin-left: 240px;
+  border: 2px solid #ffbd39;
+  border-radius: 20px;
+  box-shadow: 4px 3px #ffbd39;
+}
+
+/* hovering */
+
+.pro1 img {
+  transform: skew(16deg);
+
+}
+
+.bar a:hover {
+  text-decoration: underline;
+  text-decoration-color: #fdab05;
+  color: #fdab05;
+  text-decoration-thickness: 3px;
+}
+
+.pro {
+  z-index: -1;
+}
+
+.nav {
+  z-index: 2;
+  width: 100vw;
+  margin-left: -10px;
+  /* margin-right: -100px ; */
+}
+
+@media (min-width : 350px) and (max-width:430px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .bar {
+    font-size: 21px !important;
+    width: 100vw; 
+    display: flex;
+    padding-left: 20px;
+  }
+
+  .logo {
+    text-align: center;
+    width: 100wv;
+  }
+
+  .head,
+  .pro,
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact {
+    width: 100vw;
+    margin-left: 6px;
+  }
+
+  .nav{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin-right: -30px !important;
+    position:static !important;
+  }
+  .profile {
+    width: 380px;
+    margin-left: 32px;
+  }
+
+  .about1 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .pic2 {
+    margin-left: 40px;
+  }
+
+  .skill {
+    background-color: black;
+    background-image: none;
+  }
+
+  .pro {
+    z-index: -1;
+   
+  }
+  .pro1 img{
+    width: 250px;
+    height: 160px;
+    margin-left: 68px;
+  }
+  .form{
+    padding-left: 80px;
+  }
+
+  .pro1 img {
+    transform: skew(0deg);
+
+  }
+  .last{
+    height: 120px;
+    margin-top: 20px;
+  }
+
+}
