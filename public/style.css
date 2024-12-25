@@ -20,6 +20,7 @@ body{
   
 }
 
+
 .head {
   background-image: url(./images/backport.jpeg);
   height: 80%;
@@ -175,5 +176,8 @@ input {
   text-align: center;
   margin-left: 150px;
   margin-top: -80px !important;
+}
+.pic2{
+  margin-left: 70px;
 }
 }
