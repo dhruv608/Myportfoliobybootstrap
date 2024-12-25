@@ -89,6 +89,10 @@ input {
   margin-left: -10px;
   /* margin-right: -100px ; */
 }
+.mailto{
+  margin-left: 360px;
+  margin-top: -50px !important;
+}
 
 @media (min-width : 350px) and (max-width:430px) {
   body {
@@ -117,6 +121,7 @@ input {
   .contact {
     width: 100vw;
     margin-left: 6px;
+    height: 530px;
   }
 
   .nav{
@@ -166,5 +171,9 @@ input {
     height: 120px;
     margin-top: 20px;
   }
-
+.mailto{
+  text-align: center;
+  margin-left: 150px;
+  margin-top: -80px !important;
+}
 }
